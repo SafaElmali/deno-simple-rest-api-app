@@ -1,7 +1,7 @@
 <div align="center"> 
 
 # Simple Todo App With Deno 🦖
-<i>Made a very simple REST API Todo example using Deno</i>
+<i>Made a very simple Todo REST API example using Deno</i>
 
 </div>
 
