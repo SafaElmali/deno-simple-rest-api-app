@@ -5,7 +5,12 @@
 
 </div>
 
+## How To Start ?
+
+Run the ```index.ts``` file using deno and start to send some requests using Postman or kind of platform! Hopefully it will work!
+
 ## Built with:
+
 - [Typescript](https://www.typescriptlang.org/)
 - [Deno 🦖](https://deno.land/)(A secure runtime for JavaScript and TypeScript)
 - [oak](https://github.com/oakserver/oak)(A middleware framework for Deno's net serve)
@@ -67,4 +72,5 @@ export const saveTodo = async ({ request, response }: { request: any; response: 
 <div align="center">
 
 ## Planning to add UI soon! ⏳
+
 </div>
