@@ -1,6 +1,6 @@
 <div align="center"> 
 
-# Simple Todo App With Deno 🦖
+# Simple REST API App With Deno 🦖
 <i>Made a very simple Todo REST API example using Deno</i>
 
 </div>
