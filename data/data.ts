@@ -1,6 +1,6 @@
 import Todo from "../model/todo.ts";
 
-const TodoList: Todo[] = [
+let TodoList: Todo[] = [
     {
         id: 1,
         detail: 'Write a post about Deno with REST API',
