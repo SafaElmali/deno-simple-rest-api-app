@@ -41,7 +41,6 @@ The event handlers of routes are commonly referred to as controllers, and for th
 
 ```ts
 import TodoList from "../data/data.ts"
-import Todo from "../model/todo.ts";
 
 ....
 
