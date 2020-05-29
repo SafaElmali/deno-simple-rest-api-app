@@ -1,4 +1,3 @@
-import TodoList from "../data/data.ts"
 import Todo from "../model/todo.ts";
 
 export const getTodos = (context: any) => {
@@ -20,6 +19,7 @@ export const getTodoItem = (context: any) => {
 export const saveTodo = async ({ request, response }: { request: any; response: any }) => {
     const body = await request.body();
     const todo: Todo = body.value;
+    todo.id = Math.floor(Math.random() * 100);
     TodoList.push(todo);
     response.status = 200;
     response.body = { message: 'Todo item saved successfully!' }
@@ -42,11 +42,33 @@ export const updateTodoItem = async ({ request, response, params }: { request: a
     }
 }
 
-export const deleteTodoItem = ({ request, response, params }: { request: any; response: any, params: any }) => {
-    const todoList = TodoList.filter((item) => item.id != params.id);
+export const deleteTodoItem = ({ response, params }: { request: any; response: any, params: any }) => {
+    TodoList = TodoList.filter((item) => item.id != params.id);
     
-    console.log(todoList);
     response.status = 200;
     response.body = { message: 'Todo item removed successfully!' };
 }
+
+let TodoList: Todo[] = [
+    {
+        id: 1,
+        detail: 'Write a post about Deno with REST API',
+        doneStatus: false
+    },
+    {
+        id: 2,
+        detail: 'Write a post about React connection With Deno REST API',
+        doneStatus: false
+    },
+    {
+        id: 3,
+        detail: 'Love Deno',
+        doneStatus: true
+    },
+    {
+        id: 4,
+        detail: 'Learn Preprocessers',
+        doneStatus: false
+    }
+];
 
