@@ -40,8 +40,7 @@ export default router;
 The event handlers of routes are commonly referred to as controllers, and for this reason I have created a new controllers directory and put all controllers inside
 
 ```ts
-import TodoList from "../data/data.ts"
-
+import Todo from "../model/todo.ts";
 ....
 
 export const getTodoItem = (context: any) => {
