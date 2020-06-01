@@ -67,8 +67,6 @@ export const saveTodo = async ({ request, response }: { request: any; response: 
 
 ````
 
-<div align="center">
+## TODO
 
-## Planning to add UI soon! ⏳
-
-</div>
+- [ ] Add UI
