@@ -7,7 +7,7 @@
 
 ## How To Start ?
 
-Run the ```index.ts``` file with ```deno run --allow-net index.js``` and start to send some requests using Postman or kind of platform! Hopefully it will work!
+Run the ```index.ts``` file with ```deno run --allow-net index.ts``` and start to send some requests using Postman or kind of platform! Hopefully it will work!
 
 ## Built with:
 
