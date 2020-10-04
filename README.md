@@ -70,3 +70,7 @@ export const saveTodo = async ({ request, response }: { request: any; response: 
 ## TODO
 
 - [ ] Add UI
+
+## License
+
+deno-simple-rest-api-app is [MIT licensed](./LICENSE).
