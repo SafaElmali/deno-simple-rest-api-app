@@ -1,6 +1,7 @@
 <div align="center"> 
 
 # Simple REST API App With Deno 🦖
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)<br>
 
 <i>This repo contains demo codes for my Medium article 👉  <a href="https://medium.com/kodcular/deno-i%CC%87le-mini-rest-api-uygulamas%C4%B1-nas%C4%B1l-yaz%C4%B1l%C4%B1r-1a7116b411b6">Medium Article</a></i>
 
